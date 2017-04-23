@@ -34,15 +34,35 @@ h6 {
 
 
 .profile-lead {
+    color: #111; 
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 19.5px;
+    font-weight: 400;
+    line-height: 32px; 
     margin-left:80px;
     margin-right: 80px;
-    font-size: 18px;
-    font-weight: 400;
     text-align: center;
 }
 
+.list-inline li{
+    color: #111; 
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 19.5px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
+.bodytext{
+    color: #111; 
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 19.5px;
+    font-weight: 400;
+    line-height: 32px;
 
+}
 .intro-header {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 20px;
@@ -61,7 +81,11 @@ h6 {
 .intro-message > h1 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    font-size: 5em;
+    font-size: 7em;
+}
+
+.intro-message > h3 {
+    font-size: 30px;
 }
 
 .intro-divider {
@@ -119,6 +143,7 @@ h6 {
 .section-heading {
     position: relative;
     margin-bottom: 30px;
+    font-size:40px;
     text-align: center;
 }
 
@@ -126,10 +151,6 @@ h6 {
     position: relative;
     margin-bottom: 30px;
     text-align: center;
-}
-
-.input-group{
-    
 }
 
 

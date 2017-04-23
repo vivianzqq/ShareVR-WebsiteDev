@@ -100,7 +100,7 @@
         <div class="container">
 
         <!-- Converted from word document using html-cleaner.com -->
-        <div name="v0.2">
+        <div class="bodytext" name="v0.2">
             <H2><strong>ShareVR Unity Plugin v0.2 Release</strong></H2>
             <p>Welcome to ShareVR Unity SDK v0.2 release. There are few exciting improvements we made over the last week and we are really eager to share them with you!</p>
             <p><strong>What's New in SDK 0.2?</strong></p>
@@ -120,10 +120,10 @@
             <p>We observed our rendering time during recording dropped from&nbsp;<em>13.67ms</em>&nbsp;to&nbsp;<em>4.20ms</em>&nbsp;which gives us an estimated performance gain of&nbsp;<strong>~69.28%</strong>. Note that this data is taken at the&nbsp;<em>worst possible spot</em>&nbsp;which means that the averaged rendering time that ShareVR need during recording will be below&nbsp;<em>4.20ms</em>.</p>
             <p><strong>Stabilized Frame Rate</strong></p>
             <p>In addition to rendering time improvement, it's also obvious that the frame rate is now way more stable than SDK v0.1. The main reason behind that is the pipline stall problem. In SDK v0.1 our recording coroutine will cause pipline stall which forces CPU and GPU to sync event with each other. It's costly operation that will lead to significantly increased rendering time. After our fix, the CPU-GPU sync will be managed by SteamVR and Unity which delivers a smooth frame rate.</p>
-            <h6>ShareVR Team</h6>
-            <p>4.15.2017</p>
+            <p><strong>ShareVR Team</strong></p>
+            <p><strong>4.15.2017</strong></p>
         </div>
-        <div name="v0.1">
+        <div class="bodytext" name="v0.1">
             <h2><br /> <br /> ShareVR Unity Plugin v0.1</h2>
             <p>Welcome to ShareVR Unity SDK v0.1. Thanks for taking time trying out our plugin. The quick start tutorial will help you quickly setup our plugin. If you have any question, please don't hesitate to contact us at&nbsp;<a href="mailto:team@sharevr.io">team@sharevr.io</a></p>
             <p><strong>Getting Started</strong></p>
@@ -167,16 +167,45 @@
                 <li><em>Show Debug Message</em>&nbsp;- use this to track the status of the plugin. Debug messages will be shown in your Unity Editor Console</li>
                 <li><em>ShareVR Video Format</em>&nbsp;- change it if you want to record with a different resolution or frame rate. The default is 960x540 at 30 FPS to balance between video quality and performance. We are working hard optimizing our infrastructure to reduce performance cost.</li>
             </ul>
-            <h6>ShareVR Team</h6> 
-            <p>4.8.2017</p>
+            <p><strong>ShareVR Team</strong></p> 
+            <p><strong>4.8.2017</strong></p>
         </div>
 
+
+        </div>
+
+    </div>
+   <!-- /.container -->
+
+<a  name="contact"></a>
+    <div class="banner">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Find us on:</h2>
+                </div>
+                <div class="col-lg-6">
+                    <ul class="list-inline banner-social-buttons">
+                        <li>
+                            <a href="https://twitter.com/ShareVr"  target="_blank" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/channel/UC3dHuvqF8oOiWjejKCnGSLA"  target="_blank" class="btn btn-default btn-lg"><i class="fa fa-youtube fa-fw"></i> <span class="network-name">YouTube</span></a>
+                        </li>
+                        <li>
+                            <a href="https://www.reddit.com/user/ShareVR/"  target="_blank" class="btn btn-default btn-lg"><i class="fa fa-reddit fa-fw"></i> <span class="network-name">Reddit</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
         </div>
         <!-- /.container -->
-
     </div>
     <!-- /.banner -->
+
 
     <!-- Footer -->
     <footer>
