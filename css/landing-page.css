@@ -129,6 +129,11 @@ h6 {
     letter-spacing: 2px;
 }
 
+#icon-reddit{
+    padding-right:6px;
+    padding-left:6px;
+}
+
 .content-section-a {
     padding: 50px 0;
     background-color: #f8f8f8;
